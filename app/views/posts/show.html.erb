@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p>
   <strong>Title:</strong>
   <%= @post.title %>
@@ -38,3 +39,17 @@
  
 <%= link_to 'Edit Post', edit_post_path(@post) %> |
 <%= link_to 'Back to Posts', posts_path %>
+=======
+<p>
+  <strong>Title:</strong>
+  <%= @post.title %>
+</p>
+ 
+<p>
+  <strong>Text:</strong>
+  <%= @post.text %>
+</p>
+
+<%= link_to 'Back', :action => :index %>
+| <%= link_to 'Edit', :action => :edit, :id => @post.id %>
+>>>>>>> c4932cfc7bd3931a33f47ac621312c3d551772c2

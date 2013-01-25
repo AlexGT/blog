@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 RailsinstallerDemo::Application.configure do
+=======
+Blog::Application.configure do
+>>>>>>> c4932cfc7bd3931a33f47ac621312c3d551772c2
   # Settings specified here will take precedence over those in config/application.rb
 
   # Code is not reloaded between requests
@@ -20,7 +24,11 @@ RailsinstallerDemo::Application.configure do
   # Generate digests for assets URLs
   config.assets.digest = true
 
+<<<<<<< HEAD
   # Defaults to Rails.root.join("public/assets")
+=======
+  # Defaults to nil and saved in location specified by config.assets.prefix
+>>>>>>> c4932cfc7bd3931a33f47ac621312c3d551772c2
   # config.assets.manifest = YOUR_PATH
 
   # Specifies the header that your server uses for sending files

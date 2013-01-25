@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 RailsinstallerDemo::Application.routes.draw do
  resources :posts do
   resources :comments
@@ -5,6 +6,17 @@ end
   root :to => "welcome#index"
 end
 
+=======
+Blog::Application.routes.draw do
+  get "welcome/index"
+  root :to => "welcome#index"
+  get "posts/new"
+  post "posts/create"
+  get "posts/:id" => "posts#show"
+  get "posts" => "posts#index"
+  get "posts/:id/edit" => "posts#edit"
+  put "posts/:id" => "posts#update"
+>>>>>>> c4932cfc7bd3931a33f47ac621312c3d551772c2
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
@@ -57,10 +69,17 @@ end
   # just remember to delete public/index.html.
   # root :to => 'welcome#index'
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> c4932cfc7bd3931a33f47ac621312c3d551772c2
   # See how all your routes lay out with "rake routes"
 
   # This is a legacy wild controller route that's not recommended for RESTful applications.
   # Note: This route will make all actions in every controller accessible via GET requests.
   # match ':controller(/:action(/:id))(.:format)'
+<<<<<<< HEAD
 
+=======
+end
+>>>>>>> c4932cfc7bd3931a33f47ac621312c3d551772c2
