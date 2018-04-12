@@ -22,5 +22,10 @@ ActiveRecord::Schema.define(:version => 20130124154048) do
   end
 
   add_index "comments", ["post_id"], :name => "index_comments_on_post_id"
-
+  create_table "posts", :force => true do |t|
+      t.string   "title"
+      t.text     "text"
+      t.datetime "created_at", :null => false
+      t.datetime "updated_at", :null => false
+    end
 end
