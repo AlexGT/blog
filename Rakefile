@@ -4,8 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-<<<<<<< HEAD
-RailsinstallerDemo::Application.load_tasks
-=======
 Blog::Application.load_tasks
->>>>>>> c4932cfc7bd3931a33f47ac621312c3d551772c2
