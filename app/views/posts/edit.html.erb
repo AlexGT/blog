@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-<h1>Edit post</h1>
- 
-<%= render 'form' %>
- 
-=======
 <h1>Editing post</h1>
  
 <%= form_for :post, :url => { :action => :update, :id => @post.id },
@@ -34,5 +28,4 @@
   </p>
 <% end %>
  
->>>>>>> c4932cfc7bd3931a33f47ac621312c3d551772c2
 <%= link_to 'Back', :action => :index %>
