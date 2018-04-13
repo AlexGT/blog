@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-<h1>New post</h1>
- 
-<%= render 'form' %>
- 
-=======
 <%= form_for :post, :url => { :action => :create } do |f| %>
   <% if @post.errors.any? %>
   <div id="errorExplanation">
@@ -31,5 +25,4 @@
   </p>
 <% end %>
  
->>>>>>> c4932cfc7bd3931a33f47ac621312c3d551772c2
 <%= link_to 'Back', :action => :index %>
